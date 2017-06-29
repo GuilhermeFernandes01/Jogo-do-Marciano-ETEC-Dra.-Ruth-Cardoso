@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>The Marcian's Game</title>
+		<script language='Javascript'>
+		function iniciaJogoPT(){
+			var nivel_jogo = document.getElementById('nivel_jogo').value;
+			window.location.href = 'jogoPT.html?'+nivel_jogo;
+		}
+		</script>
+		<script language='Javascript'>
+		function iniciaJogoEN(){
+			var level_jogo = document.getElementById('level_jogo').value;
+			window.location.href = 'jogoEN.html?'+level_jogo;
+		}
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div id="tudo">
+		<br><br><br><br>
+		<center>
+			<div class="nivel">
+				<h1>Select the level</h1>
+				<h2>According to each level, you will receive an amount of bullets.<br>Click the button to start the game!</h2>
+				<br>
+				<b>Level</b>
+				<br>
+				<select id="level_jogo">
+					<option value="1">Easy</option>
+					<option value="2">Medium</option>
+					<option value="3">Hard</option>
+				</select>
+				<br><br><br>
+				<img src="img/iniciar.png" onclick="iniciaJogoEN();">
+			</div>
+			
+			<!--<div>
+				<h2>Conheça os desenvolvedores</h2>
+				<h4>Gabriel Domingues</h4>
+				<p>Guilherme Fernandes</p>
+				<p>Helaman Spadari</p>
+				<p>Matheus Guedes</p>
+				<p>Vinícius Acioly</p>
+			</div>-->
+		</center>
+	</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+/*configuraçoes*/
+body{
+	cursor: crosshair;
+	margin: 1%;
+	background-color: black;
+	font-family: 'showcard gothic';
+}
+#tudo{
+	color: white;
+	margin: 0.2%;
+	background-image: url(../img/ceu.gif);
+	background-repeat: no-repeat;
+	height: 590px;
+}
+.sobre{
+	border-top-right-radius: 1.5em;
+	border-bottom-left-radius: 1.5em;
+	border-bottom-right-radius: 1.5em;
+	border-top-left-radius: 1.5em;
+	margin: 1%;
+	background-color: #B0C4DE;
+	margin-bottom: -10px;
+}
+#texto{
+	font-family: Arial;
+	font-size: 1.1em;
+	padding: 3%;
+	text-align: justify;
+
+}
+.nivel{
+	margin: 1%;
+}
+/*tamanho da tela e fundo menus*/
+.tela{
+	background-image: url(../img/ceu.gif);
+	height: 590px;
+	background-color: white;
+}
+/*tamanho da tela e fundo historia*/
+.telaH{
+	background-repeat: no-repeat;
+	height: 662px;
+	width: 1150;
+}
+/*tamanho, posiçao da box na tela jogo*/
+#caixa{
+	text-align: center;
+	width: 1100px;
+	height: 90px;
+	margin-left: 0%;
+	margin-top: 0%;
+	color: white;
+	font-size: 30px;
+	font-family: 'showcard gothic';
+}
+/*config botoes (historia e pags finais*/
+.btnhist2{
+	width: 100px;
+	height: 50px;
+	background: #191970;
+	border-radius: 40%;
+	font-size: 20px;
+	color: white;
+	margin-top: 60px;
+	margin-left: 40%;
+}
+/*posiçao caçador2 na tela*/
+#caca2{
+	margin-top: -4%;
+}
+/*cofig pags jogo*/
+.arvo{
+	max-height: 70px;
+}
+#campo{	
+	padding-top: 4.1%;
+}
+fieldset{
+	margin-top: 5%;
+	margin-left: 45%;
+	background-color: purple;
+	opacity:0.80;
+	border-radius: 20%;
+	text-align: justify;
+	font-size: 30px;
+	width: 500px;
+	height: 180px;
+}
+
+.btnMenu{
+	width: 200px;
+	height: 100px;
+
+	margin-top: 2%;
+	margin-bottom: 1%;
+	margin-left: 41.5%;
+	background: #191970;
+
+	border-radius: 40%;
+	font-size: 40px;
+	color: white;
+}
+.btnhist{
+	width: 100px;
+	height: 50px;
+	background: #191970;
+	border-radius: 40%;
+	font-size: 20px;
+	color: white;
+	margin-top: 0px;
+}
+
+.btnhist3{
+	width: 100px;
+	height: 50px;
+	background: #191970;
+	border-radius: 40%;
+	font-size: 20px;
+	color: white;
+	margin-bottom: -20px;
+	margin-left: 38%;
+}
+#menu{
+	color: white;
+	font-size: 60px;
+	font-family: 'showcard gothic';
+}
+#hist{
+	margin: 2%;
+	color: white;
+	font-size: 60px;
+	font-family: 'showcard gothic';
+}
+
+#fim{
+	height: 590px;
+	background-color: #AFEEEE;
+}
+#perfil{
+	max-height: 300px;
+	border-radius: 100%;
+	width: 150px;
+}
