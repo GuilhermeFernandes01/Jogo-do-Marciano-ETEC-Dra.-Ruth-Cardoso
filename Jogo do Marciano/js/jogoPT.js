@@ -12,7 +12,8 @@ function iniciaJogoPT(){
 	}else if(nivel_jogo == 3) { //3 difícil -> 3 tiros
 		tiro = 3;
 	}
-
+	
+	var dica = 1;
 	//quantidade de árvores
 	var qtd_arvores = 100;
 	
@@ -43,6 +44,7 @@ var n;
 n = Math.floor(Math.random() * 100+1); //aleatoriedade dentre 1 e 100
 
 function dica(){
+	alert('Você acabou de gastar sua dica, logo, não poderá utilizá-la novamente nesse jogo.');
 	if (n <= 20){
 	alert('O Marciano está na linha 1!');
 	} else if (n<=40){
@@ -54,6 +56,7 @@ function dica(){
 	} else {
 		alert('O Marciano está na linha 5!');
 	}
+	this.dica -=1;
 }
 
 function clicar(a){
